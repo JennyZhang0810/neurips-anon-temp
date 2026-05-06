@@ -1,0 +1,38 @@
+# Train:
+  # rs508_cv1:
+  #   fg_dir: /data5/zhangjiening/AnyDoor-main/mydata2/CV1/fg
+  #   bg_dir: /data5/zhangjiening/AnyDoor-main/mydata2/CV1/bg
+
+  # rs508_cv2:
+  #   fg_dir: /data5/zhangjiening/AnyDoor-main/mydata2/CV2/fg
+  #   bg_dir: /data5/zhangjiening/AnyDoor-main/mydata2/CV2/bg
+
+  # rs508_dd1:
+  #   fg_dir: /data5/zhangjiening/AnyDoor-main/mydata2/DD1/fg
+  #   bg_dir: /data5/zhangjiening/AnyDoor-main/mydata2/DD1/bg
+
+  # rs508_dd2:
+  #   fg_dir: /data5/zhangjiening/AnyDoor-main/mydata2/DD2/fg
+  #   bg_dir: /data5/zhangjiening/AnyDoor-main/mydata2/DD2/bg
+
+  # MIG_plane_1:
+  #   fg_dir: /data5/zhangjiening/AnyDoor-main/mydata4/fg
+  #   bg_dir: /data5/zhangjiening/AnyDoor-main/mydata4/bg
+  #   mask_dir: /data5/zhangjiening/AnyDoor-main/mydata4/orign_mask_plane
+Train:
+  MIG_Sea:
+    bg_dir: /data5/zhangjiening/AnyDoor-main/mydata5/ship_dataset_sequential_output_v3/bg
+    masked_dir: /data5/zhangjiening/AnyDoor-main/mydata5/ship_dataset_sequential_output_v3/bg_blackout
+    fg_dir: /data5/zhangjiening/AnyDoor-main/mydata5/ship_dataset_sequential_output_v3/fg_order
+    mask_dir: /data5/zhangjiening/AnyDoor-main/mydata5/ship_dataset_sequential_output_v3/orign_mask_ship
+
+Test:
+  DreamBooth:
+    fg_dir: path/DreamBooth/AnyDoor_DreamBooth
+    bg_dir: path/DreamBooth/v1_800
+
+  VitonHDTest:
+    image_dir: path/TryOn/VitonHD/test/cloth
+
+
+

@@ -1,0 +1,5 @@
+# pretrained_model: /data5/zhangjiening/AnyDoor-main/pretrain_model/epoch=1-step=8687.ckpt #origin 
+# pretrained_model: /data5/zhangjiening/project/AnyDoor-main/pretrain_model/epoch=55-step=1287.ckpt
+pretrained_model: /data5/zhangjiening/Data_Generation/lightning_logs/final_version/checkpoints/epoch=271-step=98735.ckpt
+config_file: configs/anydoor.yaml
+save_memory: False

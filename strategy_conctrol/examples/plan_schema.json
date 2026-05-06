@@ -1,0 +1,12 @@
+[
+  {
+    "class": "airplane",
+    "foreground_path": "outputs/foregrounds/k3/airplane/000123_obj0_0.png",
+    "background_path": "${DIOR_ROOT}/DIOR_dataset/images/train/000456.jpg",
+    "bg_id": "000456",
+    "x": 120,
+    "y": 240,
+    "w": 80,
+    "h": 70
+  }
+]

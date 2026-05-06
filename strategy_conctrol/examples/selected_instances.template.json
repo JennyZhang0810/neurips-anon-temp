@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "seed": 42,
+    "k": 3,
+    "num_classes": 20,
+    "selection_rule": "instance-level; prefer unique images within each class; training uses full annotations of selected images"
+  },
+  "classes": {
+    "airplane": [
+      {
+        "image_id": "000123",
+        "xml_path": "${DIOR_ROOT}/Annotations/000123.xml",
+        "object_index": 0,
+        "bbox_xyxy": [100, 120, 180, 190],
+        "bbox_wh": [80, 70]
+      },
+      {
+        "image_id": "001456",
+        "xml_path": "${DIOR_ROOT}/Annotations/001456.xml",
+        "object_index": 1,
+        "bbox_xyxy": [50, 60, 120, 130],
+        "bbox_wh": [70, 70]
+      },
+      {
+        "image_id": "007890",
+        "xml_path": "${DIOR_ROOT}/Annotations/007890.xml",
+        "object_index": 0,
+        "bbox_xyxy": [200, 210, 260, 270],
+        "bbox_wh": [60, 60]
+      }
+    ]
+  }
+}

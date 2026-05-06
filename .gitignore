@@ -1,0 +1,4 @@
+pretrain_clip/flax_model.msgpack
+pretrain_clip/flax_model.msgpack
+pretrain_clip/pytorch_model.bin
+pretrain_clip/tf_model.h5

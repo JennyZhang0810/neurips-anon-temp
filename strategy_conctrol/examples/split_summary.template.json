@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "k": 3,
+  "num_classes": 20,
+  "num_selected_instances": 60,
+  "num_train_images": 34,
+  "selection_rule": "instance-level; prefer unique images within each class; training uses full annotations of selected images",
+  "all_classes_have_3_instances": true,
+  "classes_with_repeated_image_usage_within_class": [],
+  "class_stats": {
+    "airplane": {
+      "num_instances": 3,
+      "unique_images": 3,
+      "image_ids": ["000123", "001456", "007890"]
+    }
+  }
+}
