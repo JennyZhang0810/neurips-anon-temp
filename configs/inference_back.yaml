@@ -1,5 +1,0 @@
-# backup of inference.yaml before switching to finetuned ckpt
-# pretrained_model: lightning_logs/style_mvp/checkpoints/last.ckpt
-pretrained_model:/
-config_file: configs/anydoor.yaml
-save_memory: False
