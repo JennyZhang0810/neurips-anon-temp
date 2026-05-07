@@ -26,7 +26,7 @@ if save_memory:
     enable_sliced_attention()
 
 # Configs
-resume_path = '/data5/zhangjiening/AnyDoor-main/lightning_logs/version_44 (1)/checkpoints/epoch=271-step=98735.ckpt'
+resume_path = '/'
 batch_size = 2
 logger_freq = 500
 learning_rate = 1e-6
@@ -69,7 +69,7 @@ DConf = OmegaConf.load('./configs/my_datasets.yaml')
 # dataset4 = MyDataset(**DConf.Train.rs508_dd2)
 # image_data = [dataset1, dataset2, dataset3, dataset4]
 # image_data = [dataset1, dataset2, dataset4]
-image_data = MyDataset(**DConf.Train.MIG_Sea)
+image_data = MyDataset(**DConf.X)
 
 
 
